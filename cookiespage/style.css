@@ -1,0 +1,59 @@
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project__heading{
+    text-align: center;
+}
+.project__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.accept__button{
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.cookie__img{
+    max-width: 300px;
+}
+
+
+.cookie__img:hover {
+    max-width: 350px;
+
+    animation-name: spin;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0turn);
+    }
+    90%{
+        transform: rotate(1turn);
+    }
+}
+
+.cookie__recipe{
+    margin: 75px 0px 40px 0px;
+    h2 {
+text-align: center;
+}
+h3{
+    text-align: center;
+}
+a{
+    color: cadetblue;
+}
+}
+
+.ingredients{
+    color: #446973;
+}
